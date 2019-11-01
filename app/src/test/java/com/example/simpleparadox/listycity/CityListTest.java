@@ -95,11 +95,11 @@ class CityListTest {
     }
 
     @Test
-    void testAddOne(){
+    void testAddOn(){
         CityList cityList = mockCityList();
 
         assertEquals(1, cityList.countCities());
-        cityList.addOne();
+        cityList.addOn();
         assertEquals(2, cityList.countCities());
     }
 }
